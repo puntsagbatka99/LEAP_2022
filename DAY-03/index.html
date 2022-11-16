@@ -5,30 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/DAY-02/Responsive/css/style.css">
-    <link rel="stylesheet"  media="(min-width: 1400px)" href="/DAY-03/css/first.css">
-    <link rel="stylesheet" media="(min-width: 1244px)" href="/DAY-03/css/second.css">
+    <link rel="stylesheet" href="/DAY-03/css/style.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="./css/media.css">
+    <style media="all and (max-width: 992px)">
+        .column {
+            width: 50%;
+        }
+    </style>
+    <style media="all and (max-width: 600px)">
+        .column {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <!--<div class="text-container">
-        <div id="text-1">1400px - ээс их болон тэнцүү үед = xxl (extra extra large) => 1400px</div>
-        <div id="text-2">1200px - ээс их болон тэнцүү үед = xl (extra large) => 1200px</div>
-        <div id="text-3">992px - ээс их болон тэнцүү үед = lg (large) => 992px</div>
-        <div id="text-4">768px - ээс их болон тэнцүү үед = md (medium) => 768px</div>
-        <div id="text-5">576px - ээс их болон тэнцүү үед = sm  (small) => 576px</div>
-        <div id="text-6">576px - ээс бага үед = xs ( extra small )  576px</div>
-    </div> -->
-    <picture>
-        <source srcset="/DAY-03/images/picture1.jpeg" media="(min-width: 800px)">
-        <source srcset="/DAY-03/images/picture2.jpeg" media="(min-width: 600px)">
-        <img src="/DAY-03/images/picture3.jpeg" alt="A calico cat with dark aviator sunglasses.">
-    </picture>
     <h2>responsive nacigation menu</h2>
     <p>some text</p>
     <div class="top-nav">
         <a href="#">link</a>
         <a href="#">link</a>
         <a href="#">link</a>
+    </div>
+    <div class="row">
+        <div class="column" style="background-color: grey">
+            <h1>column 1</h1>
+            <p> some text ...</p>
+        </div>
+        <div class="column" style="background-color: rgb(93, 91, 91)">
+            <h1>column 2</h1>
+            <p> some text ...</p>
+        </div>
+        <div class="column" style="background-color: rgb(93, 77, 77)">
+            <h1>column 3</h1>
+            <p> some text ...</p>
+        </div>
+        <div class="column" style="background-color: rgb(193, 150, 150)">
+            <h1>column 4</h1>
+            <p> some text ...</p>
+        </div>
     </div>
 </body>
 </html>

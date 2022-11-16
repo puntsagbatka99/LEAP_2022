@@ -1,0 +1,13 @@
+.para img {
+    width: 32%;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.left-side{
+    width: 100%;
+}
+.right-side{
+    width: 95%;
+}
