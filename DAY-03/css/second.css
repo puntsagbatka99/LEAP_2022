@@ -1,0 +1,10 @@
+
+    body{
+        background-color: rgb(255, 0, 119);
+    }
+    #text-1,#text-3,#text-4,#text-5,#text-6{
+        display: none;
+    }
+    #text-2{
+        display: flex;
+    }
