@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container d-flex justify-content-between">
+              <a class="navbar-brand text-white" href="#">Logo Brand</a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">Contact</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <section class="bg-dark">
+        <div class="container d-flex">
+            <div class="left-side d-flex flex-column justify-content-center">
+                <h1 class="text-white">Better Solutions <span class="text-warning"> For Your Business</span></h1>
+                <p class="text-white w-75">We are the integrated learning solution that delivers impactful programs for everyone.</p>
+                <button type="button" class="btn btn-dark border-primary text-primary w-50" data-bs-toggle="modal" data-bs-target="#demo-modal">
+                    GET STARTED
+                </button>
+                <div id="demo-modal" class="modal fade">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal Heading</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                Modal Body Content
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" data-bs-dismiss="modal">Xaax</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="./images/undraw_online_test_re_kyfx.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div id="carousel-demo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/project-1.jpeg" alt="test" class="d-block w-100" style="height: 600px">
+            </div>
+            <div class="carousel-item active">
+                <img src="./images/project-2.jpeg" alt="test" class="d-block w-100" style="height: 600px">
+            </div>
+            <div class="carousel-item active">
+                <img src="./images/project-3.jpeg" alt="test" class="d-block w-100" style="height: 600px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section style="height: 300px">
+        <div class="container d-flex mt-5">
+            <div class="left-side">
+                <img src="./images/undraw_delivery_truck_vt6p.svg" class="w-100" alt="#">
+            </div>
+            <div class="right-side w-75">
+                <h2>ABOUT US</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia asperiores dicta voluptate magnam perspiciatis veniam nemo dolore consequuntur iusto? Minima dicta atque impedit autem id odit omnis fuga dolores architecto!</p>
+                <button data-bs-toggle="collapse" data-bs-target="#demo" class="border-primary bg-white text-primary" style="border-radius: 10px"                 >
+                    READ MORE
+                </button>
+                <div id="demo" class="collapse text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veniam quia nobis sit ducimus aspernatur dolorem perferendis deserunt. Aliquam recusandae asperiores natus impedit rem commodi fugit saepe sint, voluptates exercitationem.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark my-5">
+        <div class="container d-flex w-100">
+            <div class="left-side w-50 d-flex flex-column justify-content-center">
+                <h2 class="text-white">ABOUT US</h2>
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia asperiores dicta voluptate magnam perspiciatis veniam nemo dolore consequuntur iusto? Minima dicta atque impedit autem id odit omnis fuga dolores architecto!</p>
+                <button data-bs-toggle="collapse" data-bs-target="#demo2" class="w-25 border-primary bg-dark text-primary" style="border-radius: 10px"                 >
+                    READ MORE
+                </button>
+                <div id="demo2" class="collapse text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, veniam quia nobis sit ducimus aspernatur dolorem perferendis deserunt. Aliquam recusandae asperiores natus impedit rem commodi fugit saepe sint, voluptates exercitationem.</div>
+            </div>
+            <div class="right-side">
+                <img src="./images/undraw_newspaper_re_syf5.svg" class="w-100" alt="#">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-5">
+            <h1 class="text-center">FAQ</h1>
+            <div class="accordion accordion-flush" id="accordianExample" data-bs-toggle="collaps" data-bs-target="#colaapseOne">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapsOne">
+                            Where exactly are you located?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam sunt! Officiis exercitationem consequuntur est rerum dicta vel enim dolor, fugiat cumque, voluptatum excepturi, quisquam quasi dolorum explicabo officia similique? <code>.accordion-body</code>Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapsTwo">
+                            How much does it cost to attend?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam sunt! Officiis exercitationem consequuntur est rerum dicta vel enim dolor, fugiat cumque, voluptatum excepturi, quisquam quasi dolorum explicabo officia similique? <code>.accordion-body</code>Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapsThree">
+                            What do i need to Know?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam sunt! Officiis exercitationem consequuntur est rerum dicta vel enim dolor, fugiat cumque, voluptatum excepturi, quisquam quasi dolorum explicabo officia similique? <code>.accordion-body</code>Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsFour">
+                            How Do I sign up?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam sunt! Officiis exercitationem consequuntur est rerum dicta vel enim dolor, fugiat cumque, voluptatum excepturi, quisquam quasi dolorum explicabo officia similique? <code>.accordion-body</code>Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark bg-opacity-25 py-5">
+        <div class="container text-center">
+            <h1 class="text-white">Our Team</h1>
+            <p class="text-white">We listened to our people about what and how they wanted to learn, and most made it clear business was their preferred platform.</p>
+            <div class="d-flex">
+                <div class="card pt-3 m-2">
+                    <img src="./images/profile.jpeg" class="m-auto" style="width: 100px; height: 100px; border-radius: 50px;" alt="profile">
+                    <div class="card-body">
+                        <h4>John Doe</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div>
+                        <img src="./images/facebook.svg" alt="facebook">
+                        <img src="./images/messenger.svg" alt="messenger">
+                        <img src="./images/instagram.svg" alt="instagram">
+                        <img src="./images/twitter.svg" alt="twitter">
+                      </div>
+                    </div>
+                </div>
+                <div class="card pt-3 m-2">
+                    <img src="./images/profile.jpeg" class="m-auto" style="width: 100px; height: 100px; border-radius: 50px;" alt="profile">
+                    <div class="card-body">
+                        <h4>Jane Doe</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div>
+                        <img src="./images/facebook.svg" alt="facebook">
+                        <img src="./images/messenger.svg" alt="messenger">
+                        <img src="./images/instagram.svg" alt="instagram">
+                        <img src="./images/twitter.svg" alt="twitter">
+                      </div>
+                    </div>
+                </div>
+                <div class="card pt-3 m-2">
+                    <img src="./images/profile.jpeg" class="m-auto" style="width: 100px; height: 100px; border-radius: 50px;" alt="profile">
+                    <div class="card-body">
+                        <h4>Steve Smith</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div>
+                        <img src="./images/facebook.svg" alt="facebook">
+                        <img src="./images/messenger.svg" alt="messenger">
+                        <img src="./images/instagram.svg" alt="instagram">
+                        <img src="./images/twitter.svg" alt="twitter">
+                      </div>
+                    </div>
+                </div>
+                <div class="card pt-3 m-2">
+                    <img src="./images/profile.jpeg" class="m-auto" style="width: 100px; height: 100px; border-radius: 50px;" alt="profile">
+                    <div class="card-body">
+                        <h4>Sara Smith</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div>
+                        <img src="./images/facebook.svg" alt="facebook">
+                        <img src="./images/messenger.svg" alt="messenger">
+                        <img src="./images/instagram.svg" alt="instagram">
+                        <img src="./images/twitter.svg" alt="twitter">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center py-5">
+        <h1>Contact Info</h1>
+        <div class="text-start">
+            <p class="mb-0"><strong>Main Location:</strong>50 Main st Boston MA</p>
+            <hr class="m-1">
+            <p class="mb-0"><strong>Enrollment Phone:</strong>(555) 555-555</p>
+            <hr class="m-1">
+            <p class="mb-0"><strong>Student Phone:</strong>(333) 333-333</p>
+            <hr class="m-1">
+            <p class="mb-0"><strong>Enrollment Email:</strong>(555) enroll@frontendbc.test</p>
+            <hr class="m-1">
+            <p class="mb-0"><strong>Student Email:</strong>student@frontendbc.test</p>
+            <hr class="m-1">
+        </div>
+    </section>
+
+    <footer class="bg-dark py-5">
+        <div class="container d-flex">
+            <div class="text-white">
+                <h3>Logo Brand</h3>
+                <p>A108 Adam Street New York, NY 535022 United States</p>
+                <p><strong>Phone:</strong>+1 5589 55488 55</p>
+                <p><strong>Email:</strong>info@example.com</p>
+            </div>
+            <div>
+                <h5>Useful Links</h5>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Terms fo Services</li>
+                    <li>Privacy policy</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Our Services</h5>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                    <li>Product Managment</li>
+                    <li>Marketing</li>
+                    <li>Graphic Design</li>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
