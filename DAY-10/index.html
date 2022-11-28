@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/main.js"></script>
+    <script src="./js/paper-full.min.js"></script>
+    <script type="text/paperscript" canvas="myCanvas">
+        var path = new Path();   
+        path.strokeColor = 'black';
+        var start = new Point(100, 100);
+        path.moveTo(start);
+        path.lineTo(start + [ 100, -50 ]);
+    </script>
+
+    <script src="./js/circle.js" type="text/paperscript" canvas="myCanvas"></script>
+    <canvas id="myCanvas" resize></canvas>
+</head>
+<body>
+    <h1>JS Tutorial</h1>
+    <canvas id="myCanvas" resize></canvas>
+    <canvas id="myCanvas" resize></canvas>
+    
+    
+    
+</body>
+</html>
