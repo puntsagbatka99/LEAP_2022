@@ -92,14 +92,17 @@ console.log(firstName);
 
 let name = "JavaScript String";
 console.log(name.substr(0, 10));
-console.log(name.substr(11,6)) */
+console.log(name.substr(11,6)) 
 
 
 const phoneNumber = prompt("Утасны дугаар оруулна уу");
 const prefix = '+976';
-if (phoneNumber.substr(0, 4) == +976 && phoneNumber.length == 12) {
+if (phoneNumber.substr(0, 4) == prefix && phoneNumber.length == 12) {
     console.log("true");
 } else {
     console.log("false");
 }
+*/
 
+let str = "This is a string";
+console.log(str.indexOf("string"));
