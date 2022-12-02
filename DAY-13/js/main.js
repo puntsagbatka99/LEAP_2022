@@ -90,15 +90,15 @@ while (ask == "yes") {
 console.log("game over");
 
 let answer =Number(prompt("give me number"));
-let count = 1;
+let count = 0;
 let sum = 0;
 
 while (count < answer) {
     console.log(count);
     count = count + 1;
-    
     sum = sum + count;
     console.log(sum)
+    
 }
 
 
